@@ -1,3 +1,5 @@
+//GitHub Link:https://github.com/naziullah135/Assignment-3.js
+
 //Q-1:Convert Distance Unit Kilometer To Meter:-
 
 function kilometerToMeter(km){
@@ -42,8 +44,8 @@ function hotelCost(days){
         var first10 = 10*100;
         var second10 = 10*80;
         var remaining = days-20;
-        var third10 = remaining*50;
-        rent = first10 + second10 + third10;
+        var thirdleft = remaining*50;
+        rent = first10 + second10 + thirdleft;
     }
     return rent;
 
