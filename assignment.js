@@ -14,9 +14,15 @@ console.log(result);
 
 //Q-2:budget calculation:-
 
-function budgetCalculator(){
-    
+function budgetCalculator(quanOfWatch,quanOfPhone,quanOfLaptop){
+    return quanOfWatch*priceOfWatch+quanOfPhone*priceOfPhone+quanOfLaptop*priceOfLaptop;
+
 }
+var priceOfWatch = 50;
+var priceOfPhone = 100;
+var priceOfLaptop = 500;
+var totalCost = budgetCalculator(1,2,3);
+console.log(totalCost);
 
 
 //Q-3:hotelCost calculation:
